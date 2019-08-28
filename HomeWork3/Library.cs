@@ -5,7 +5,7 @@ namespace HomeWork3
 {
     class Library
     {
-        private readonly List<Book> _books;
+        private List<Book> _books;
 
         public Library()
         {
@@ -21,6 +21,12 @@ namespace HomeWork3
         public void AddBook(Book book)
         {
             _books.Add(book);
+        }
+
+        public void RemoveBook(Book book)
+        {
+            var index = _books.IndexOf(book);
+            if (index != -1) _books.RemoveAt(index);
         }
 
         public void PrintListOfBooks()
