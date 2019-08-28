@@ -2,8 +2,8 @@
 {
     class Author
     {
-        public string Name { get; private set; }
-        public string LastName { get; private set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
 
         public Author(string name, string lastName)
         {

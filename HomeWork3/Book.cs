@@ -2,9 +2,9 @@
 {
     class Book
     {
-        public Author Author { get; private set; }
-        public string Name { get; private set; }
-        public string Text { get; private set; }
+        public Author Author { get; set; }
+        public string Name { get; set; }
+        public string Text { get; set; }
 
         public Book(string authorName, string authorLastName, string bookName, string text)
         {
