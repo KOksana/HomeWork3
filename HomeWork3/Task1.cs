@@ -11,7 +11,7 @@
             var book1 = new Book(author, "War and Peace", "some text");
             library.AddBook(book1);
 
-            var book2 = new Book(author, "Anna Karenina", "some text");
+            var book2 = new Book("Mark", "Twain", "The Adventures of Huckleberry Finn", "some text");
             library.AddBook(book2);
 
             library.PrintListOfBooks();
