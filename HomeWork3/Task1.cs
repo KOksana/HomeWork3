@@ -1,4 +1,6 @@
-﻿namespace HomeWork3
+﻿using System;
+
+namespace HomeWork3
 {
     class Task1
     {
@@ -14,6 +16,13 @@
             var book2 = new Book("Mark", "Twain", "The Adventures of Huckleberry Finn", "some text");
             library.AddBook(book2);
 
+            library.AddBook(book2);
+
+            library.PrintListOfBooks();
+            
+            library.RemoveDuplicates();
+
+            Console.WriteLine("\n*** Without duplicates ***");
             library.PrintListOfBooks();
         }
     }
