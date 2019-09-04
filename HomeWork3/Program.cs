@@ -1,4 +1,5 @@
 ﻿using System;
+using HomeWork3.HomeTask2;
 
 namespace HomeWork3
 {
@@ -6,7 +7,7 @@ namespace HomeWork3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose task: 1 - Task1 (Library); 2 - Task2; 3 - Task3");
+            Console.WriteLine("Choose task: 1 - Task1 (Library); 2 - Task2 (Interfaces); 3 - Task3");
 
             string inputValue = Console.ReadLine();
             if (int.TryParse(inputValue, out int taskNumber))
@@ -17,7 +18,7 @@ namespace HomeWork3
                         Task1.Processing();
                         break;
                     case 2:
-
+                        Task2.Processing();
                         break;
                     case 3:
 
