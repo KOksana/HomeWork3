@@ -1,4 +1,5 @@
 ﻿using System;
+using HomeWork3.HomeTask3;
 
 namespace HomeWork3
 {
@@ -6,7 +7,7 @@ namespace HomeWork3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose task: 1 - Task1 (Library); 2 - Task2; 3 - Task3");
+            Console.WriteLine("Choose task: 1 - Task1 (Library); 2 - Task2; 3 - Task3 (hierarchy)");
 
             string inputValue = Console.ReadLine();
             if (int.TryParse(inputValue, out int taskNumber))
@@ -20,7 +21,7 @@ namespace HomeWork3
 
                         break;
                     case 3:
-
+                        Task3.Processing();
                         break;
                     default:
                         Console.WriteLine("There are no task with this number");
