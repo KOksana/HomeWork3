@@ -45,6 +45,15 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="HomeTask3\ElectricCooktop.cs" />
+    <Compile Include="HomeTask3\ElectricOven.cs" />
+    <Compile Include="HomeTask3\ElectricStove.cs" />
+    <Compile Include="HomeTask3\GasCooktop.cs" />
+    <Compile Include="HomeTask3\GasOven.cs" />
+    <Compile Include="HomeTask3\GasStove.cs" />
+    <Compile Include="HomeTask3\ICooktop.cs" />
+    <Compile Include="HomeTask3\IOven.cs" />
+    <Compile Include="HomeTask3\Task3.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
