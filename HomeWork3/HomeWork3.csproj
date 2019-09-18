@@ -58,6 +58,19 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task1.cs" />
+    <Compile Include="HomeTask2\Amd64Processor.cs" />
+    <Compile Include="HomeTask2\ArmProcessor.cs" />
+    <Compile Include="HomeTask2\BuiltInDisplay.cs" />
+    <Compile Include="HomeTask2\Computer.cs" />
+    <Compile Include="HomeTask2\ExternalDisplay.cs" />
+    <Compile Include="HomeTask2\IDisplay.cs" />
+    <Compile Include="HomeTask2\IInput.cs" />
+    <Compile Include="HomeTask2\IProcessor.cs" />
+    <Compile Include="HomeTask2\Joystick.cs" />
+    <Compile Include="HomeTask2\Keyboard.cs" />
+    <Compile Include="HomeTask2\Mouse.cs" />
+    <Compile Include="HomeTask2\Projector.cs" />
+    <Compile Include="HomeTask2\Task2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
